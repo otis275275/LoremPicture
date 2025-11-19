@@ -67,8 +67,8 @@ export default function Photos() {
           )
         })}
       </div>
-      <h1>{isLoading && 'Loading...'}</h1>
-      <h1>{isEnd && 'The end!'}</h1>
+      <h1 className='text-2xl'>{isLoading && 'Loading...'}</h1>
+      <h1 className='text-2xl'>{isEnd && 'The end!'}</h1>
     </>
     )
 }

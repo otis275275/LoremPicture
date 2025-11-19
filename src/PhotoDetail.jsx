@@ -26,7 +26,7 @@ export default function PhotoDetail() {
     }
 
     if (!photo) {
-        return <h1>Đang tải chi tiết ảnh...</h1>; 
+        return <h1 className="text-2xl">Đang tải chi tiết ảnh...</h1>; 
     }
     return (
         <div className="flex flex-col items-center gap-2">
